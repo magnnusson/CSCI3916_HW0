@@ -1,0 +1,26 @@
+Request Headers
+
+User-Agent: PostmanRuntime/7.29.0 -- the browser/program that is making the request.
+Accept: */* -- what media type is to be accepted in the response, in this case, everything.
+Postman-Token: 33ca7a79-a4a1-4c14-b297-ea510e0514d8 -- token from postman.
+Host: www.googleapis.com -- the host to which we are making the request to.
+Accept-Encoding: gzip, deflate, br -- acceptable encodings that the request can take.
+Connection: keep-alive -- control option for the connection as it makes the request.
+
+
+
+Response Headers
+
+Content-Type: application/json; charset=UTF-8 -- the media type of the response.
+Vary: Origin -- vary is used in deciding in whether the cached response can be used.
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip -- how the response is encoded.
+Date: Thu, 20 Jan 2022 17:48:48 GMT -- the date and timestamp.
+Server: ESF -- the server name.
+Cache-Control: private -- controls access to caching this response.
+X-XSS-Protection: 0 -- protection against cross-site scripting attacks.
+X-Frame-Options: SAMEORIGIN -- protection options against clickjacking.
+X-Content-Type-Options: nosniff -- prevents IE or Chrome from "MIME-sniffing" a response.
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43" -- alternative services header where a server indicates different network location its resources can be accessed through.
+Transfer-Encoding: chunked -- used to safely transfer the response to the user using one of its options, in this case, chunked.
